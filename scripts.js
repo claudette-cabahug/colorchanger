@@ -8,12 +8,25 @@ const center = document.querySelector(".center");
 
 // console.log(window.getComputedStyle(red).background);
 
+
+// get the color of element selected
 const getBGColor = (selectedElement) => {
   return window.getComputedStyle(selectedElement).backgroundColor;
 };
 
-var orangeElementColor = getBGColor(orange);
+// play audio
+const audioElement = document.getElementById("audio");
 
-orange.addEventListener("mouseenter", () => {
-  center.style.background = orangeElementColor;
-});
+// change the color of center to the element selected
+const magicColorChanger = (element, color) => {
+  return element.addEventListener("mouseenter", () => {
+    center.style.background = color;
+    audioElement.play();
+  });
+}
+
+magicColorChanger(red, getBGColor(red));
+magicColorChanger(cyan, getBGColor(cyan));
+magicColorChanger(violet, getBGColor(violet));
+magicColorChanger(orange, getBGColor(orange));
+magicColorChanger(pink, getBGColor(pink));

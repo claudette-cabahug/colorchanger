@@ -63,3 +63,12 @@ body {
   border-style: solid;
   border-color: black;
 }
+
+.center {
+  margin-top: 50px;
+  padding-top: 10px;
+  background: lightblue;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
