@@ -1,42 +1,65 @@
 body {
-  background: yellowgreen;
+  background: rgb(183, 240, 71);
+}
+
+.title {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size:xx-large;
+  padding: 50px;
+  display: flex;
 }
 
 .box-container {
-  margin: 100px;
-  background: white;
-  padding: 50px;
+  margin: 300px;
+  padding: 40px;
   display: flex;
-
-  
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 }
 
 .color-red {
-  width: 100px;
+  width: 200px;
   height: 100px;
   background-color: red;
+  border: 3px;
+  border-style: solid;
+  border-color: black;
 }
 
 .color-cyan {
-  width: 100px;
+  width: 200px;
   height: 100px;
   background-color: cyan;
+  border: 3px;
+  border-style: solid;
+  border-color: black;
 }
 
 .color-violet {
-  width: 100px;
+  width: 200px;
   height: 100px;
   background-color: violet;
+  border: 3px;
+  border-style: solid;
+  border-color: black;
 }
 
 .color-orange {
-  width: 100px;
+  width: 200px;
   height: 100px;
   background-color: orange;
+  border: 3px;
+  border-style: solid;
+  border-color: black;
 }
 
 .color-pink {
-  width: 100px;
+  width: 200px;
   height: 100px;
   background-color: pink;
+  border: 3px;
+  border-style: solid;
+  border-color: black;
 }
