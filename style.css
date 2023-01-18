@@ -19,7 +19,7 @@ body {
   align-content: center;
 }
 
-.color-red {
+.red {
   width: 200px;
   height: 100px;
   background-color: red;
@@ -28,7 +28,7 @@ body {
   border-color: black;
 }
 
-.color-cyan {
+.cyan {
   width: 200px;
   height: 100px;
   background-color: cyan;
@@ -37,7 +37,7 @@ body {
   border-color: black;
 }
 
-.color-violet {
+.violet {
   width: 200px;
   height: 100px;
   background-color: violet;
@@ -46,7 +46,7 @@ body {
   border-color: black;
 }
 
-.color-orange {
+.orange {
   width: 200px;
   height: 100px;
   background-color: orange;
@@ -55,7 +55,7 @@ body {
   border-color: black;
 }
 
-.color-pink {
+.pink {
   width: 200px;
   height: 100px;
   background-color: pink;
